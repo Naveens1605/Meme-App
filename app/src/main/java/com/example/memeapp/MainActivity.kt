@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClick(view: View) {
-        when(view.id){
+        when(view.id) {
             R.id.nextMeme -> {
                 variables.url = variables.viewModel.url
                 variables.progressBar.visibility = View.VISIBLE
